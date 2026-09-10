@@ -54,3 +54,9 @@ li{padding-left:3px;margin-bottom:8px}
 @media(max-width:560px){.wrap{padding-left:22px;padding-right:22px}main{padding-top:36px;padding-bottom:46px}nav{gap:8px 20px}.explore{grid-template-columns:1fr;gap:0}.about{margin-top:36px}h1{font-size:2.7rem}.lead{font-size:1.15rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.explore a:hover,.photo-link:hover img{transform:none}}
 @media print{.site-header,nav,.site-footer,.skip-link,.explore{display:none}main{padding:0;animation:none}.wrap{max-width:none;padding:0}body{font-size:12pt}.intro{grid-template-columns:1fr 1fr;gap:24px}a{color:inherit}.content-grid{grid-template-columns:1fr;gap:10px}.degree,article{break-inside:avoid}}
+
+/* Click decoration stays outside the layout and never captures input. */
+.math-burst-layer{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:9999;user-select:none}
+.math-burst-symbol{position:absolute;display:block;line-height:1;font-family:Georgia,'Times New Roman',serif;font-weight:bold;pointer-events:none}
+@media(prefers-reduced-motion:reduce){.math-burst-layer{display:none}}
+@media print{.math-burst-layer{display:none}}
