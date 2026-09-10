@@ -1,237 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Gavin Butts | Mathematics</title>
-
-  <meta
-    name="description"
-    content="Gavin Butts is a mathematics graduate student at Wake Forest University studying algebraic combinatorics."
-  >
-
-  <style>
-    :root {
-      color-scheme: light;
-      --background: #fafafa;
-      --text: #222;
-      --muted: #515b65;
-      --accent: #234b65;
-      --border: #d5dce1;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      max-width: 820px;
-      margin: 64px auto;
-      padding: 0 28px;
-      background: var(--background);
-      color: var(--text);
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 18px;
-      line-height: 1.75;
-      overflow-wrap: break-word;
-    }
-
-    header {
-      padding-bottom: 28px;
-      border-bottom: 1px solid var(--border);
-    }
-
-    h1,
-    h2,
-    h3 {
-      line-height: 1.25;
-    }
-
-    h1 {
-      margin: 0 0 12px;
-      color: var(--accent);
-      font-size: 2.75rem;
-      font-weight: normal;
-    }
-
-    .affiliation {
-      margin: 0;
-      color: var(--muted);
-    }
-
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px 28px;
-      margin-top: 24px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 1rem;
-    }
-
-    a {
-      color: var(--accent);
-      text-underline-offset: 4px;
-    }
-
-    nav a {
-      font-weight: bold;
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    a:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: 5px;
-    }
-
-    section {
-      margin-top: 44px;
-      scroll-margin-top: 24px;
-    }
-
-    h2 {
-      margin: 0 0 18px;
-      color: var(--accent);
-      font-size: 1.6rem;
-      font-weight: normal;
-    }
-
-    h3 {
-      margin: 28px 0 12px;
-      font-size: 1.1rem;
-    }
-
-    p {
-      margin: 0 0 18px;
-    }
-
-    .thesis-title {
-      margin-bottom: 8px;
-    }
-
-    .thesis-details {
-      color: var(--muted);
-      font-size: 1rem;
-    }
-
-    footer {
-      margin-top: 56px;
-      padding-top: 20px;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    .skip-link {
-      position: absolute;
-      top: 12px;
-      left: 12px;
-      padding: 8px 12px;
-      transform: translateY(-200%);
-      background: var(--background);
-    }
-
-    .skip-link:focus {
-      transform: translateY(0);
-    }
-
-    @media (max-width: 600px) {
-      body {
-        margin: 32px auto;
-        padding: 0 20px;
-      }
-
-      h1 {
-        font-size: 2.25rem;
-      }
-
-      section {
-        margin-top: 36px;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gavin Butts | Mathematics</title>
+<meta name="description" content="Gavin Butts, mathematics graduate student at Wake Forest University. Research in algebraic combinatorics.">
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
-  <header>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap header-inner">
+<a class="brand" href="index.html">Gavin Butts<span>Mathematics · Wake Forest University</span></a>
+<nav aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a>
+<a href="research.html">Research</a>
+<a href="teaching.html">Teaching</a>
+<a href="education.html">Education</a></nav>
+</div></header>
+<main id="main" class="wrap" tabindex="-1">
+<div class="intro">
+  <div>
+    <p class="eyebrow">Algebraic combinatorics</p>
     <h1>Gavin Butts</h1>
-    <p class="affiliation">
-      Mathematics graduate student<br>
-      Wake Forest University
-    </p>
-
-    <nav aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#teaching">Teaching</a>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section id="about" aria-labelledby="about-heading">
-      <h2 id="about-heading">About</h2>
-
-      <p>
-        I am a master's student in mathematics at Wake Forest
-        University, working with Sarah Mason. My research interests
-        lie in algebraic combinatorics, particularly quasisymmetric
-        functions, tableaux, and connections to representation theory.
-      </p>
-
-      <p>
-        Previously, I studied computer science and statistics and
-        data science at Loyola Marymount University, where I worked
-        with Joshua Hallam.
-      </p>
-    </section>
-
-    <section id="research" aria-labelledby="research-heading">
-      <h2 id="research-heading">Research</h2>
-
-      <p>
-        My research explores how combinatorial objects, such as
-        words and tableaux, describe relationships between families
-        of quasisymmetric functions. I am particularly interested
-        in Young quasisymmetric Schur functions, dual immaculate
-        functions, and actions of 0-Hecke algebras.
-      </p>
-
-      <h3>Undergraduate thesis</h3>
-
-      <p class="thesis-title">
-        <cite>
-          A Signed Decomposition of Young Quasisymmetric
-          Schur Functions into Dual Immaculate Quasisymmetric Functions
-        </cite>
-      </p>
-
-      <p class="thesis-details">
-        Loyola Marymount University, 2025.<br>
-        Supervised by Joshua Hallam.
-      </p>
-    </section>
-
-    <section id="teaching" aria-labelledby="teaching-heading">
-      <h2 id="teaching-heading">Teaching</h2>
-
-      <p>
-        I currently serve as the lead graduate teaching assistant of mathematics at Wake Forest University where I manage the Math and Stats Center.
-      </p>
-
-      <p>
-        I also lead undergraduate reading courses, including reading courses on Young Tableaux and Catalan numbers.
-      </p>
-    </section>
-  </main>
-
-  <footer>
-    <p>Gavin Butts · Mathematics</p>
-  </footer>
+    <p class="lead">Mathematics graduate student at Wake Forest University.</p>
+    <p>I study quasisymmetric functions, tableaux, and their connections to representation theory.</p>
+    <p><a href="research.html">Explore my research</a></p>
+  </div>
+  <figure>
+    <a class="photo-link" href="gavin-photo.jpg" aria-label="View full photograph of Gavin with his research poster">
+      <img src="gavin-photo.jpg" alt="Gavin Butts standing beside his research poster on quasisymmetric functions." width="1824" height="1368" fetchpriority="high">
+    </a>
+    <figcaption>With my research poster on Young quasisymmetric Schur and dual immaculate functions.</figcaption>
+  </figure>
+</div>
+<section class="about" aria-labelledby="about-title">
+  <p class="eyebrow">About me</p>
+  <h2 id="about-title">Welcome.</h2>
+  <p>I am a second-year master's student in mathematics at Wake Forest University, working with Sarah Mason. My research lies in algebraic combinatorics, where I use objects such as words and tableaux to study algebraic structures.</p>
+  <p>Before coming to Wake Forest, I studied computer science and statistics and data science at Loyola Marymount University, with a minor in mathematics. There, I worked with Joshua Hallam on the relationship between Young quasisymmetric Schur functions and dual immaculate functions.</p>
+  <p>Alongside my research, I serve as a graduate teaching assistant and mathematics tutor, and I lead undergraduate reading courses.</p>
+</section>
+<nav class="explore" aria-label="Explore the website">
+  <a href="research.html"><strong>Research</strong><span>Quasisymmetric functions, tableaux, and 0-Hecke actions.</span></a>
+  <a href="teaching.html"><strong>Teaching</strong><span>Tutoring and undergraduate reading courses.</span></a>
+  <a href="education.html"><strong>Education</strong><span>My academic background and degrees.</span></a>
+</nav></main>
+<footer class="site-footer"><div class="wrap footer-inner"><p>Gavin Butts · Mathematics</p><p><a href="index.html">Home</a> · Wake Forest University</p></div></footer>
 </body>
 </html>

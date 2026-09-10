@@ -1,0 +1,24 @@
+GAVIN BUTTS — ACADEMIC WEBSITE
+
+1. Unzip gavinbutts-website.zip on your computer.
+2. Open github.com/GavinButts/gavinbutts.github.io.
+3. Choose Add file > Upload files.
+4. Upload these SIX files together directly to the repository root:
+   index.html
+   research.html
+   teaching.html
+   education.html
+   styles.css
+   gavin-photo.jpg
+   Upload the files themselves, not the ZIP or its enclosing folder.
+5. Commit directly to main with the message "Add academic website pages".
+   index.html replaces your existing homepage.
+6. Keep your existing CNAME file and GitHub Pages settings unchanged.
+7. Wait for the GitHub Pages deployment to finish, then open your website.
+   If styling looks old, reload with Command-Shift-R on Mac.
+
+Open index.html locally to preview the site before uploading.
+The photo opens at full size when clicked. All pages work without JavaScript.
+Edit each HTML file to change its text; styles.css controls all four pages.
+Review academic details before publishing, especially the education and teaching pages.
+No publication status, paper downloads, contact address, or CV link is invented.
