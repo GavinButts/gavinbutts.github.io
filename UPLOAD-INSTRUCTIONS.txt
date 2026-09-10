@@ -1,29 +1,21 @@
-GAVIN BUTTS — ACADEMIC WEBSITE
+GAVIN BUTTS — COLORFUL ACADEMIC WEBSITE
 
-1. Unzip gavinbutts-website.zip on your computer.
-2. Open github.com/GavinButts/gavinbutts.github.io.
-3. Choose Add file > Upload files.
-4. Upload these SEVEN files together directly to the repository root:
-   index.html
-   research.html
-   teaching.html
-   education.html
-   styles.css
-   clicks.js
-   gavin-photo.jpg
-   Upload the files themselves, not the ZIP or its enclosing folder.
-5. Commit directly to main with the message "Add academic website pages".
-   index.html replaces your existing homepage.
-6. Keep your existing CNAME file and GitHub Pages settings unchanged.
-7. Wait for the GitHub Pages deployment to finish, then open your website.
-   If styling looks old, reload with Command-Shift-R on Mac.
+Unzip gavinbutts-website.zip, then open index.html to preview it locally.
 
-Open index.html locally to preview the site before uploading.
-The photo opens at full size when clicked. All page content and navigation work without JavaScript. clicks.js adds decorative math-symbol bursts and respects reduced-motion preferences.
-Edit each HTML file to change its text; styles.css controls all four pages.
-Review academic details before publishing, especially the education and teaching pages.
-No publication status, paper downloads, contact address, or CV link is invented.
+UPDATE YOUR EXISTING GITHUB WEBSITE
+1. Open github.com/GavinButts/gavinbutts.github.io.
+2. Choose Add file > Upload files.
+3. Upload index.html, research.html, teaching.html, education.html,
+   styles.css, and clicks.js directly to the repository root.
+4. Keep your existing gavin-photo.jpg and CNAME file. The ZIP includes the
+   photograph if you need it again.
+5. Commit directly to main with the message "Refresh website design".
+6. Wait for GitHub Pages to publish, then refresh your website.
+   On Mac, Command-Shift-R reloads cached styles if needed.
 
-UPDATING THE PREVIOUS VERSION
-Upload all four HTML pages, styles.css, and clicks.js. Your existing
-gavin-photo.jpg can stay as it is. Keep CNAME unchanged.
+Upload the individual files, not the ZIP or an enclosing folder.
+No changes to DNS or HTTPS settings are required.
+
+The four pages share styles.css and clicks.js. Page navigation and content
+work without JavaScript. Hover motion and the colorful click effect respect
+reduced-motion preferences. Decorative math symbols are hidden from screen readers.
